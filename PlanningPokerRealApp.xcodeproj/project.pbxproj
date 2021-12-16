@@ -11,6 +11,9 @@
 		DAC103C9276A983900623733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC103C8276A983900623733 /* ViewController.swift */; };
 		DAC103CB276A983A00623733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC103CA276A983A00623733 /* Assets.xcassets */; };
 		DAC103CE276A983A00623733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC103CC276A983A00623733 /* Main.storyboard */; };
+		DAC103D6276AA32800623733 /* JoinRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC103D5276AA32800623733 /* JoinRoomVC.swift */; };
+		DAC103D9276AA5B000623733 /* StartRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC103D7276AA5B000623733 /* StartRoomVC.swift */; };
+		DAC103DD276AD39000623733 /* RoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC103DB276AD39000623733 /* RoomVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		DAC103CA276A983A00623733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC103CD276A983A00623733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAC103CF276A983A00623733 /* PlanningPokerRealApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlanningPokerRealApp.entitlements; sourceTree = "<group>"; };
+		DAC103D5276AA32800623733 /* JoinRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinRoomVC.swift; sourceTree = "<group>"; };
+		DAC103D7276AA5B000623733 /* StartRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRoomVC.swift; sourceTree = "<group>"; };
+		DAC103DB276AD39000623733 /* RoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				DAC103CA276A983A00623733 /* Assets.xcassets */,
 				DAC103CC276A983A00623733 /* Main.storyboard */,
 				DAC103CF276A983A00623733 /* PlanningPokerRealApp.entitlements */,
+				DAC103D5276AA32800623733 /* JoinRoomVC.swift */,
+				DAC103D7276AA5B000623733 /* StartRoomVC.swift */,
+				DAC103DB276AD39000623733 /* RoomVC.swift */,
 			);
 			path = PlanningPokerRealApp;
 			sourceTree = "<group>";
@@ -131,8 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC103D9276AA5B000623733 /* StartRoomVC.swift in Sources */,
 				DAC103C9276A983900623733 /* ViewController.swift in Sources */,
+				DAC103D6276AA32800623733 /* JoinRoomVC.swift in Sources */,
 				DAC103C7276A983900623733 /* AppDelegate.swift in Sources */,
+				DAC103DD276AD39000623733 /* RoomVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

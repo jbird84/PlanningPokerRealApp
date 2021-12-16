@@ -9,9 +9,12 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var planningPokerImageView: NSImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        planningPokerImageView.imageScaling = .scaleProportionallyUpOrDown
         // Do any additional setup after loading the view.
     }
 
