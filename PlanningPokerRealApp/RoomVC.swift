@@ -5,29 +5,35 @@
 //  Created by Kinney Kare on 12/15/21.
 //
 
-import Cocoa
-
-
-class RoomVC: NSViewController {
-    
-
-    @IBOutlet weak var user1: NSTextField!
-    @IBOutlet weak var user2: NSTextField!
-    @IBOutlet weak var user3: NSTextField!
-    @IBOutlet weak var user4: NSTextField!
-    @IBOutlet weak var user5: NSTextField!
-    
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do view setup here.
-        
-        user1.backgroundColor = .systemGreen
-        //user1.layer?.cornerRadius = user1.frame.width/2
-        user1.layer?.masksToBounds = true
-        
-  
-    }
-    
-}
+//import Cocoa
+//
+//
+//class RoomVC: NSCollectionView {
+//    
+//
+//    @IBOutlet weak var tableView: NSTableView!
+//    
+//    var fakeNames = Person.getSomeFakeNames()
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        tableView.delegate = self
+//        tableView.dataSource = self
+//    }
+//    
+//    func numberOfRows(in tableView: NSTableView) -> Int {
+//        return 1
+//    }
+//    
+//    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+//        if tableColumn?.identifier == NSUserInterfaceItemIdentifier(rawValue: "name") {
+//            let cellIdentifier = NSUserInterfaceItemIdentifier(rawValue: "nameCell")
+//            guard let cellView = tableView.makeView(withIdentifier: cellIdentifier, owner: self) as? NSTableCellView else {return nil}
+//            cellView.textField?.stringValue = fakeNames[row].name
+//            return cellView
+//        }
+//        return nil
+//    }
+//    
+//}
 

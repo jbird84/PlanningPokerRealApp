@@ -14,6 +14,7 @@
 		DAC103D6276AA32800623733 /* JoinRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC103D5276AA32800623733 /* JoinRoomVC.swift */; };
 		DAC103D9276AA5B000623733 /* StartRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC103D7276AA5B000623733 /* StartRoomVC.swift */; };
 		DAC103DD276AD39000623733 /* RoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC103DB276AD39000623733 /* RoomVC.swift */; };
+		DAC103FD276B038300623733 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC103FC276B038300623733 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DAC103D5276AA32800623733 /* JoinRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinRoomVC.swift; sourceTree = "<group>"; };
 		DAC103D7276AA5B000623733 /* StartRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRoomVC.swift; sourceTree = "<group>"; };
 		DAC103DB276AD39000623733 /* RoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomVC.swift; sourceTree = "<group>"; };
+		DAC103FC276B038300623733 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				DAC103D5276AA32800623733 /* JoinRoomVC.swift */,
 				DAC103D7276AA5B000623733 /* StartRoomVC.swift */,
 				DAC103DB276AD39000623733 /* RoomVC.swift */,
+				DAC103FC276B038300623733 /* Person.swift */,
 			);
 			path = PlanningPokerRealApp;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC103FD276B038300623733 /* Person.swift in Sources */,
 				DAC103D9276AA5B000623733 /* StartRoomVC.swift in Sources */,
 				DAC103C9276A983900623733 /* ViewController.swift in Sources */,
 				DAC103D6276AA32800623733 /* JoinRoomVC.swift in Sources */,
